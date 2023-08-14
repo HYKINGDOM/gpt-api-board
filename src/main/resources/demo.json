@@ -1,0 +1,20 @@
+{
+  "max_tokens": 1000,
+  "model": "gpt-3.5-turbo-16k",
+  "temperature": 0.8,
+  "top_p": 1,
+  "presence_penalty": 1,
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are ChatGPT, a large language model trained by OpenAI. Follow the user's instructions carefully.Now it's a 19 * 19 chessboard where you can play gobang. You're the last to take action, and now it's your turn to reply with the format 'row, col'.",
+      "name": "undefined"
+    },
+    {
+      "role": "user",
+      "content": "8,9",
+      "name": "undefined"
+    }
+  ],
+  "stream": "true"
+}
